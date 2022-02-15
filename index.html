@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>CALCULATOR</title>
+</head>
+<body style="background-color: #E8EAE6;">
+    <div class="center">
+        <h1>Calculator</h1>
+        <div class="design">
+            <div id="calc">
+                <input type="text" placeholder="0" id="screen">
+            </div>
+            <div>
+                <button onclick="allclear()" class="button" id="main">AC</button><button onclick="del()" class="button">del</button><button onclick="display('/')" class="button">/</button>
+            </div>
+            <div>
+                <button onclick="display('9')" class="button">9</button><button onclick="display('8')" class="button">8</button><button onclick="display('7')" class="button">7</button><button onclick="display('*')" class="button">*</button>
+            </div>
+            <div>
+                <button onclick="display('6')" class="button">6</button><button onclick="display('5')" class="button">5</button><button onclick="display('4')" class="button">4</button><button onclick="display('-')" class="button">-</button>
+            </div>
+            <div>
+                <button onclick="display('3')" class="button">3</button><button onclick="display('2')" class="button">2</button><button onclick="display('1')" class="button">1</button><button onclick="display('+')" class="button">+</button>
+            </div>
+            <div>
+                <button id="myBtn">C</button><button onclick="display('0')" class="button">0</button><button onclick="display('.')" class="button">.</button><button onclick="equal()" class="button">=</button>
+            </div>
+        </div> 
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

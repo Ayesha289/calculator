@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Great Vibes', cursive;
+    color: #7C9473;
+    font-size: 60px;
+    align-items: center;
+}
+.button{
+    background-color: #7C9473;
+    color: #E8EAE6;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+}
+.button:hover {
+    background-color: #8DB596;
+  }
+
+#myBtn{
+    background-color: #7C9473;
+    color: #E8EAE6;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+.design{
+    border-style: solid;
+    border-color: #7C9473;
+    border-radius: 20px;
+    padding: 15px;
+}
+#main{
+    padding-right: 40px;
+}
+
+#screen{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: #7C9473;
+    padding: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    text-align: end;
+}
+
+.center{
+    background-color: #E8EAE6;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
